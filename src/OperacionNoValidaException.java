@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class OperacionNoValidaException {
+public class OperacionNoValidaException extends Exception {
+    public OperacionNoValidaException(String mensaje) {
+        super(mensaje);
+    }
 }
